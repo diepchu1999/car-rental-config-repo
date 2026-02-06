@@ -1,5 +1,7 @@
 server:
   port: 8081
-
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
 test:
   message: Hello User Service from Config Server
