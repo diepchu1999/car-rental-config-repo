@@ -1,6 +1,5 @@
 server:
   port: 8081
-
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/user_db
@@ -12,4 +11,9 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.engine.jdbc.connections: DEBUG
+    
 
