@@ -2,7 +2,7 @@ server:
   port: 8082
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/vehicle_db
+    url: jdbc:postgresql://localhost:5433/vehicle_db
     username: vehicle
     password: vehicle
     driver-class-name: org.postgresql.Driver
