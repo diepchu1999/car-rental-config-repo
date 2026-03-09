@@ -29,6 +29,9 @@ management:
 logging:
   level:
     p6spy: DEBUG
+    org.keycloak: DEBUG
+    org.keycloak.adapters: DEBUG
+    org.springframework.security: DEBUG
   file:
     name: logs/${spring.application.name}.log
   logback:
