@@ -48,5 +48,6 @@ keycloak:
     realm: car-rental
     client-id: user-service
     client-uid: 22b4e19a-12a7-4777-8211-5345fc36e743
-    client-secret: 81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ
+    client-secret: u5zFUVQQCWSWuUhjSsmsL15enicGezEU
+    #81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ
 
