@@ -1,5 +1,6 @@
 server:
   port: 8081
+
 spring:
   datasource:
     url: jdbc:p6spy:postgresql://localhost:5432/user_db
@@ -15,6 +16,7 @@ spring:
       hibernate:
         format_sql: true
         use_sql_comments: true
+
 management:
   endpoints:
     web:
@@ -38,6 +40,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
 # KEYCLOAK
 keycloak:
   admin:
@@ -46,7 +49,5 @@ keycloak:
     server-url: http://localhost:8090
     realm: car-rental
     client-id: user-service
-    client-uid: 22b4e19a-12a7-4777-8211-5345fc36e743 
+    client-uid: 22b4e19a-12a7-4777-8211-5345fc36e743
     client-secret: 81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ
-    #81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ/ 22b4e19a-12a7-4777-8211-5345fc36e743 
-
