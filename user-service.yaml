@@ -52,7 +52,7 @@ keycloak:
     server-url: http://localhost:8090
     realm: car-rental
     client-id: user-service
-    client-uid: 22b4e19a-12a7-4777-8211-5345fc36e743
-    client-secret: 81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ
-    #e8bYuAjZpm7oApezbjgi8yVUzVI1fOaS
-    #523ac63d-227b-43b5-9020-07f3d1d63cc1
+    client-uid: 523ac63d-227b-43b5-9020-07f3d1d63cc1
+    client-secret: e8bYuAjZpm7oApezbjgi8yVUzVI1fOaS
+    #client-uid: 22b4e19a-12a7-4777-8211-5345fc36e743
+    #client-secret: 81OKVv9qWpKwX9YmMSn6m4yrATRAc3qZ
